@@ -1,27 +1,31 @@
-# 🧹 Dvall Command 
+# 🧹 Dvall Command - QBCore
 
-A simple, effective admin command for FiveM that clears unused vehicles and non-player characters (NPCs) from the game world. Perfect for server cleanup and reducing unnecessary load during gameplay.
+A simple, effective admin command for QBCore-based FiveM servers that clears unused vehicles and non-player characters (NPCs) from the world. Ideal for reducing lag and tidying up the server during or after RP events.
+
+---
 
 ## ⚙️ What It Does
 
 The `/dvall` command:
-- 🚗 Deletes all unoccupied and unused vehicles
-- 👤 Deletes all non-player, non-mission critical peds (NPCs)
-- 🧠 Leaves players, player vehicles, and essential mission entities untouched
+- 🚗 Deletes all unoccupied, unused vehicles
+- 👤 Removes non-player, non-mission-critical NPCs (peds)
+- ✅ Leaves players, player vehicles, and mission entities untouched
 
-Useful for:
-- 🔧 Lag reduction
-- 🧼 Cleanup after events
-- 🚓 Police scenes or RP resets
-- 🌍 Clearing a cluttered world state
+### Useful for:
+- 🔧 Reducing client and server lag
+- 🧼 Cleanup after large RP scenes or events
+- 🚓 Resetting busy police scenes
+- 🌍 Clearing cluttered environments
+
+---
 
 ## 🕹️ Command Usage
 
-| Command     | Description                      |
-|-------------|----------------------------------|
-| `/dvall`    | Deletes non-used vehicles & peds |
+| Command     | Description                              |
+|-------------|------------------------------------------|
+| `/dvall`    | Deletes non-used vehicles and peds       |
 
-> Requires proper permissions depending on your framework (e.g., admin role in vMenu, ace permissions, etc.).
+> 🔐 **Note:** This command requires proper permissions in QBCore. god usage only.
 
 ## 🛠️ Installation
 
